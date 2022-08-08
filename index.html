@@ -16,15 +16,15 @@
     <img src="images/logo.svg" alt="Logo">
     <nav class="navigation">
       <ul class="nav-list">
-        <li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+        <li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+        <li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+        <li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+        <li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
       </ul>
     </nav>
   </div>
 <!-- ./navar-->
-<header class="header container">
+<header class="header container" id="main">
 <img src="images/my_avatar.png" alt="Lera" class="header-photo">
 <!-- /.header-photo -->
 <div class="header-text">
@@ -40,7 +40,7 @@
       <li class="social-item"><a href="" class="social-linc"><img src="images/Icons/stackoverflow.svg" alt="stackoverflow" class="social-logo"></a></li>
       <li class="social-item"><a href="" class="social-linc"><img src="images/Icons/youtube.svg" alt="youtube" class="social-logo"></a></li>
     </ul>
-    <a href="#" class="cv-download">
+    <a href="#cv.pdf" class="cv-download">
       <img src="images/Icons/download.svg" alt="download-icon" class="cv-icon">
       <span class="cv-text">Скачать резюме</span>
     </a>
@@ -50,7 +50,7 @@
 <!-- /.header-text -->
 </header>
 <!-- /.header -->
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
   <div class="container">
     <h2 class="section-heading">Будущие проекты</h2>
     <div class="cards">
@@ -121,7 +121,7 @@
   <!-- /.container -->
 </section>
 <!-- /.portfolio -->
-<section class="developer container">
+<section class="developer container" id="developer">
   <img src="images/developer-photo.png" alt="артем Исламов" class="developer-photo">
   <div class="developer-about">
 <span class="developer-helloy">Рад вас видеть</span>
@@ -135,7 +135,7 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
   <!-- /.developer-about -->
 </section>
 <!-- /.developer container -->
-<section class="skills container">
+<section class="skills container" id="skills">
   <h2 class="skills-title">Работаю с разными языками и инструментами</h2>
     <ul class="tags">
       <li class="tegs-item"><a href="#" class="tag">HTML</a></li>
@@ -150,7 +150,9 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
     </ul>
 </section>
 <!-- /.skills -->
-<section class="feedback form-container">
+<section class="feedback" id="feedback">
+  <img src="images/hand.png" alt="hand" class="feedback-hend">
+  <div class="form-container">
 <h2 class="feedback-title">Готов обсудить проект...</h2>
 <form action="#" class="form">
 <div class="input-group">
@@ -173,8 +175,10 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress</p>
     <span class="cv-text">Отправить</span>
   </button>
 </div>
+
 <!-- /.button-group -->
 </form>
+</div>
 </section>
 <!-- /.feedbask -->
 </body>
